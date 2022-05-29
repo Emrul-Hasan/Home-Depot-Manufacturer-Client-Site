@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Shared/Footer/Footer';
-import icon1 from '../../images/banner (6).png'
+import profile from '../../images/banner (6).png'
 import './Portfolio.css';
 
 
@@ -12,7 +12,7 @@ const Portfolio = () => {
 
                 <div className='profile-content'>
                     <div className='know-me bg-primary'>
-                    <img className='w-25' src={icon1} alt="" />
+                    <img className='w-25' src={profile} alt="" />
                         <h3 className='text-2xl text-center'>Emrul Hasan Emon</h3>
                         <h4 className=' font-bold text-center mb-5 mt-1'>Front End Web Developer</h4>
                         <label htmlFor="email">EMAIL</label>
