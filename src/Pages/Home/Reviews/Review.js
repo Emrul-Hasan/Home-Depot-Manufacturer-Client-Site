@@ -5,7 +5,7 @@ const Review = ({ review }) => {
     const { img, note, name, rating } = review;
 
     return (
-        <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+        <div className="card lg:max-w-lg bg-zinc-700 shadow-xl m-5">
             <figure className="px-10 pt-10">
                 <img width={150} src={img} alt="services" className="rounded-xl" />
             </figure>
