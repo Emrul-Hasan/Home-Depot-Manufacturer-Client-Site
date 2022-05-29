@@ -31,7 +31,7 @@ const CheckoutForm = ({ order }) => {
     // data fetch
     useEffect(() => {
 
-        fetch('https://infinite-lake-36259.herokuapp.com/create-payment-intent', {
+        fetch('http://localhost:5000/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -117,7 +117,7 @@ const CheckoutForm = ({ order }) => {
                 transactionId: paymentIntent?.id
             }
 
-            fetch(`https://infinite-lake-36259.herokuapp.com/order/${_id}`, {
+            fetch(`http://localhost:5000/order/${_id}`, {
                 method: 'PATCH',
                 headers: {
                     'content-type': 'application/json',

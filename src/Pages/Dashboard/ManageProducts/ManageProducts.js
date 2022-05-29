@@ -10,7 +10,7 @@ const ManageProducts = () => {
 
     const [deletingTool, setDeletingTool] = useState(null);
 
-    const { data: tools, isLoading, refetch } = useQuery('tools', () => fetch('https://infinite-lake-36259.herokuapp.com/tools', {
+    const { data: tools, isLoading, refetch } = useQuery('tools', () => fetch('http://localhost:5000/tools', {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         },

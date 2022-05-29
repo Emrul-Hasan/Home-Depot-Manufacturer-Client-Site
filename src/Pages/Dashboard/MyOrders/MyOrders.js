@@ -23,7 +23,7 @@ const MyOrders = () => {
     useEffect(() => {
 
         if (user) {
-            fetch(`https://infinite-lake-36259.herokuapp.com/order?buyer=${email}`, {
+            fetch(`http://localhost:5000/order?buyer=${email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
