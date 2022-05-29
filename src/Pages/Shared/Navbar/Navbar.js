@@ -25,12 +25,12 @@ const Navbar = () => {
         <li><Link to="/portfolio">Portfolio</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
         {user && <li><Link to="/dashboard">Dashboard</Link></li>}
-        <li>{user ? <button onClick={logOut} className="btn btn-ghost font-bold">Sign Out</button> : <Link to="/login">Login</Link>}</li>
+        <li>{user ? <button onClick={logOut} className=" font-bold">SignOut</button> : <Link to="/login">Login</Link>}</li>
     </>
 
 
     return (
-        <div className="navbar bg-primary">
+        <div className="navbar bg-dark">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden text-white">
@@ -40,7 +40,8 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-4xl text-white font-bold">Toolsify</Link>
+                <Link to="/" className="btn btn-ghost normal-case text-2xl text-white font-bold">Home Depot Manufacturer.
+</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 text-white font-bold">
