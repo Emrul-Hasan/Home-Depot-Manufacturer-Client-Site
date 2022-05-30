@@ -15,7 +15,7 @@ mobile.
 ## Project - Details :
  
 * Here I make a project for a `Tools Manufacturer Company` where various tools manufactured and supply to the dealers.
-* This Manufacturer company supply different tools and collect digital payment from customers. Yes `Stripe` payment gateway system is attached in this project.
+* This Manufacturer company supply different tools and collect digital payment from customers. Yes `Stripe` payment gateway system is attached in this project
 * This Project's has the special feature for admin. Admin who are authorized to maintain to update the product's data and stores data.
 * Authorized people can manage orders, products data of this site.
 * This company receives order and supply according to order.
