@@ -40,7 +40,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-2xl text-white font-bold">Home Depot Manufacturer.
+                <Link to="/" className="btn btn-ghost normal-case text-2xl text-white font-bold">Home Depot Manufacturer 
 </Link>
             </div>
             <div className="navbar-end hidden lg:flex">

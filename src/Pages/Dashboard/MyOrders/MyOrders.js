@@ -23,7 +23,7 @@ const MyOrders = () => {
     useEffect(() => {
 
         if (user) {
-            fetch(`http://localhost:5000/order?buyer=${email}`, {
+            fetch(`https://thawing-wildwood-78264.herokuapp.com/order?buyer=${email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`

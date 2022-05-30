@@ -6,7 +6,7 @@ import './Banner.css';
 const Banner = () => {
 
     return (
-        <section className='bg-primary text-white'>
+        <section className='bg-stone-700 text-white'>
             <div className='banner-body'>
                 <div>
                     <h2 className='banner-title text-teal-200'>Home Depot Manufacturer LTD.</h2>

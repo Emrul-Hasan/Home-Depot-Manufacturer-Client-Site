@@ -4,7 +4,7 @@ const Contact = () => {
 
     return (
         <section className="bg-accent">
-            <div className='bg-primary px-10 py-14 '>
+            <div className='bg-stone-600 px-10 py-14 '>
                 <div className='text-center pb-14 text-white'>
                     <p className='text-3xl font-bold text-secondary uppercase bg-clip-text bg-gradient-to-br from-accent to-secondary'>
                         Contact Us
