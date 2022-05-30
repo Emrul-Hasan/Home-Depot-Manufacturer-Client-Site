@@ -52,7 +52,7 @@ const PackageArea = () => {
                                 'Get Good Products for your occassional arrangement',
                                 'Occasion support',
                                 'Well managed',
-                                'Get one Free']
+                                ]
                         }
                     ></PackageDetail>
                 </div>
