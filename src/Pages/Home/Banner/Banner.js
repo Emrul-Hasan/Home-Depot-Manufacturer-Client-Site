@@ -14,6 +14,8 @@ const Banner = () => {
                 </div>
                 <div className='banner-img'>
                     <img src={banner1} alt="banner" />
+                   
+                    
                 </div>
             </div>
         </section>
